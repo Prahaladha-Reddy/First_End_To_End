@@ -1,1 +1,38 @@
 [2024-11-27 19:05:53,399 : INFO : main : Welcome Custome logger]
+[2024-11-29 15:19:36,850 : INFO : main : Welcome Custome logger]
+[2024-11-29 15:19:36,850 : INFO : main : >> Stage Data Ingestion Stage started >>]
+[2024-11-29 15:19:36,852 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2024-11-29 15:19:36,853 : INFO : common : yaml file: schema.yaml loaded successfully]
+[2024-11-29 15:19:36,853 : INFO : common : yaml file: params.yaml loaded successfully]
+[2024-11-29 15:19:36,854 : INFO : common : created directory at: artifacts]
+[2024-11-29 15:19:36,856 : INFO : common : created directory at: artifacts/data_ingestion]
+[2024-11-29 15:19:41,663 : INFO : data_ingestion : artifacts/data_ingestion/data.zip downloaded! with following info
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F5A4:9EF9F:FF1F3:142E37:674985FC
+Accept-Ranges: bytes
+Date: Fri, 29 Nov 2024 09:49:41 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100022-HYD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1732873781.707159,VS0,VE298
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: fdea0bdb67791f5c10f37472cfa6f0e13e3491ca
+Expires: Fri, 29 Nov 2024 09:54:41 GMT
+Source-Age: 0
+
+]
+[2024-11-29 15:19:41,695 : INFO : main : >> stage Data Ingestion Stage completed >> 
+
+x===x]
