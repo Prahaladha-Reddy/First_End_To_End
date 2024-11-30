@@ -175,7 +175,7 @@ This project integrates MLflow for tracking experiments. The MLflow tracking URI
 1. **Set Tracking URI**:
    Ensure that the MLflow tracking URI is set to the DagsHub repository in your configuration.
    ```python
-   mlflow.set_tracking_uri("https://dagshub.com/Prahaladha-Reddy/First_End_To_End.mlflow")
+   mlflow.set_tracking_uri("https://dagshub.com/<Username>/<Project name>")
    ```
 
 2. **Run MLflow Tracking**:
