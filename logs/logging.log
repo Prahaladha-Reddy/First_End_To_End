@@ -123,3 +123,125 @@ x===x]
 [2024-11-30 10:36:14,369 : INFO : common : created directory at: artifacts]
 [2024-11-30 10:36:14,371 : INFO : common : created directory at: artifacts/data_validation]
 [2024-11-30 10:36:14,415 : INFO : main : >> stage Model evaluation stage completed]
+[2024-11-30 11:10:43,771 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2024-11-30 11:10:43,792 : INFO : common : yaml file: schema.yaml loaded successfully]
+[2024-11-30 11:10:43,808 : INFO : common : yaml file: params.yaml loaded successfully]
+[2024-11-30 11:10:43,810 : INFO : common : created directory at: artifacts]
+[2024-11-30 11:10:43,813 : INFO : common : created directory at: artifacts/data_transformation]
+[2024-11-30 11:12:40,488 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2024-11-30 11:12:40,494 : INFO : common : yaml file: schema.yaml loaded successfully]
+[2024-11-30 11:12:40,497 : INFO : common : yaml file: params.yaml loaded successfully]
+[2024-11-30 11:12:40,499 : INFO : common : created directory at: artifacts]
+[2024-11-30 11:12:40,501 : INFO : common : created directory at: artifacts/data_transformation]
+[2024-11-30 11:12:52,518 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2024-11-30 11:12:52,522 : INFO : common : yaml file: schema.yaml loaded successfully]
+[2024-11-30 11:12:52,524 : INFO : common : yaml file: params.yaml loaded successfully]
+[2024-11-30 11:12:52,526 : INFO : common : created directory at: artifacts]
+[2024-11-30 11:12:52,528 : INFO : common : created directory at: artifacts/data_transformation]
+[2024-11-30 11:12:52,586 : INFO : 2284028089 : Splitting data into training and test sets]
+[2024-11-30 11:12:52,588 : INFO : 2284028089 : (1199, 12)]
+[2024-11-30 11:12:52,591 : INFO : 2284028089 : (400, 12)]
+[2024-11-30 11:36:05,266 : INFO : main : Welcome Custome logger]
+[2024-11-30 11:36:05,266 : INFO : main : >> Stage Data Ingestion Stage started >>]
+[2024-11-30 11:36:05,269 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2024-11-30 11:36:05,272 : INFO : common : yaml file: schema.yaml loaded successfully]
+[2024-11-30 11:36:05,273 : INFO : common : yaml file: params.yaml loaded successfully]
+[2024-11-30 11:36:05,275 : INFO : common : created directory at: artifacts]
+[2024-11-30 11:36:05,276 : INFO : common : created directory at: artifacts/data_ingestion]
+[2024-11-30 11:36:08,330 : INFO : data_ingestion : artifacts/data_ingestion/data.zip downloaded! with following info
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D3A1:EE3FD:104F2B:14C9B0:674AAB4E
+Accept-Ranges: bytes
+Date: Sat, 30 Nov 2024 06:06:06 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100031-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1732946767.601528,VS0,VE292
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 8db7612a2ff0cdd01ee417c028086c1b1f702212
+Expires: Sat, 30 Nov 2024 06:11:06 GMT
+Source-Age: 0
+
+]
+[2024-11-30 11:36:08,352 : INFO : main : >> stage Data Ingestion Stage completed >> 
+
+x===x]
+[2024-11-30 11:36:08,352 : INFO : main : >> stage Model evaluation stage]
+[2024-11-30 11:36:08,356 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2024-11-30 11:36:08,361 : INFO : common : yaml file: schema.yaml loaded successfully]
+[2024-11-30 11:36:08,363 : INFO : common : yaml file: params.yaml loaded successfully]
+[2024-11-30 11:36:08,364 : INFO : common : created directory at: artifacts]
+[2024-11-30 11:36:08,365 : INFO : common : created directory at: artifacts/data_validation]
+[2024-11-30 11:36:08,400 : INFO : main : >> stage Model evaluation stage completed]
+[2024-11-30 11:36:08,400 : INFO : main : >> Stage Data Transformation Stage started >>]
+[2024-11-30 11:36:08,402 : ERROR : main : 'module' object is not callable]
+Traceback (most recent call last):
+  File "C:\Users\bored\Music\Datascience\First_End_To_End\main.py", line 37, in <module>
+    obj=data_transformation_pipeline()
+TypeError: 'module' object is not callable
+[2024-11-30 11:38:20,850 : INFO : main : Welcome Custome logger]
+[2024-11-30 11:38:20,851 : INFO : main : >> Stage Data Ingestion Stage started >>]
+[2024-11-30 11:38:20,853 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2024-11-30 11:38:20,856 : INFO : common : yaml file: schema.yaml loaded successfully]
+[2024-11-30 11:38:20,857 : INFO : common : yaml file: params.yaml loaded successfully]
+[2024-11-30 11:38:20,858 : INFO : common : created directory at: artifacts]
+[2024-11-30 11:38:20,859 : INFO : common : created directory at: artifacts/data_ingestion]
+[2024-11-30 11:38:20,859 : INFO : data_ingestion : File already exists]
+[2024-11-30 11:38:20,864 : INFO : main : >> stage Data Ingestion Stage completed >> 
+
+x===x]
+[2024-11-30 11:38:20,866 : INFO : main : >> stage Model evaluation stage]
+[2024-11-30 11:38:20,871 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2024-11-30 11:38:20,875 : INFO : common : yaml file: schema.yaml loaded successfully]
+[2024-11-30 11:38:20,877 : INFO : common : yaml file: params.yaml loaded successfully]
+[2024-11-30 11:38:20,878 : INFO : common : created directory at: artifacts]
+[2024-11-30 11:38:20,879 : INFO : common : created directory at: artifacts/data_validation]
+[2024-11-30 11:38:20,911 : INFO : main : >> stage Model evaluation stage completed]
+[2024-11-30 11:38:20,912 : INFO : main : >> Stage Data Transformation Stage started >>]
+[2024-11-30 11:38:20,913 : ERROR : main : 'DataTransformationTrainingPiprline' object has no attribute 'initiate_data_transformation']
+Traceback (most recent call last):
+  File "C:\Users\bored\Music\Datascience\First_End_To_End\main.py", line 38, in <module>
+    obj.initiate_data_transformation()
+AttributeError: 'DataTransformationTrainingPiprline' object has no attribute 'initiate_data_transformation'
+[2024-11-30 11:39:59,101 : INFO : main : Welcome Custome logger]
+[2024-11-30 11:39:59,102 : INFO : main : >> Stage Data Ingestion Stage started >>]
+[2024-11-30 11:39:59,104 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2024-11-30 11:39:59,108 : INFO : common : yaml file: schema.yaml loaded successfully]
+[2024-11-30 11:39:59,109 : INFO : common : yaml file: params.yaml loaded successfully]
+[2024-11-30 11:39:59,110 : INFO : common : created directory at: artifacts]
+[2024-11-30 11:39:59,110 : INFO : common : created directory at: artifacts/data_ingestion]
+[2024-11-30 11:39:59,111 : INFO : data_ingestion : File already exists]
+[2024-11-30 11:39:59,114 : INFO : main : >> stage Data Ingestion Stage completed >> 
+
+x===x]
+[2024-11-30 11:39:59,115 : INFO : main : >> stage Model evaluation stage]
+[2024-11-30 11:39:59,121 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2024-11-30 11:39:59,125 : INFO : common : yaml file: schema.yaml loaded successfully]
+[2024-11-30 11:39:59,127 : INFO : common : yaml file: params.yaml loaded successfully]
+[2024-11-30 11:39:59,127 : INFO : common : created directory at: artifacts]
+[2024-11-30 11:39:59,128 : INFO : common : created directory at: artifacts/data_validation]
+[2024-11-30 11:39:59,160 : INFO : main : >> stage Model evaluation stage completed]
+[2024-11-30 11:39:59,161 : INFO : main : >> Stage Data Transformation Stage started >>]
+[2024-11-30 11:39:59,183 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2024-11-30 11:39:59,186 : INFO : common : yaml file: schema.yaml loaded successfully]
+[2024-11-30 11:39:59,187 : INFO : common : yaml file: params.yaml loaded successfully]
+[2024-11-30 11:39:59,188 : INFO : common : created directory at: artifacts]
+[2024-11-30 11:39:59,197 : INFO : common : created directory at: artifacts/data_transformation]
+[2024-11-30 11:39:59,226 : INFO : data_transformation : Splitting data into training and test sets]
+[2024-11-30 11:39:59,227 : INFO : data_transformation : (1199, 12)]
+[2024-11-30 11:39:59,227 : INFO : data_transformation : (400, 12)]
+[2024-11-30 11:39:59,228 : INFO : main : >> stage Data Transformation Stage completed >> 
+
+x===x]
